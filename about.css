@@ -1,8 +1,22 @@
 .about {
-    padding: 300px;
+    padding: 200px;
     text-align: center;
     background-color: #ede6dc;
     margin-top: 200px;
+}
+
+.title-abt {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+}
+
+.about hr {
+    width: 150px;
+    border: 2px solid tomato;
+    position: relative;
+    right: 50%;
+    left: 44%;
+    margin-top: 10px;
 }
 
 .about-us {
@@ -15,21 +29,21 @@
 
 .about-us p {
     font-size: 18px;
-    line-height: 1.6;
+    line-height: 2.0;
     color: #333;
     width: 500px;
 }
 
 .about-us img {
-    width: 500px;
-    height: auto;
+    width: 550px;
+    height: 400px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     background-color: white;
-    height: 334px;
+    height: 400px;
     gap: 20px;
     padding: 10px;
 }
