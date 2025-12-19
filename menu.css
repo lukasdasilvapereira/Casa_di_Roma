@@ -1,0 +1,61 @@
+:root {
+    --italy-red: #C0392B;
+    --italy-green: #2E7D32;
+    --italy-white: #F4F1EC;
+}
+
+.menu {
+    padding: 250px;
+    text-align: center;
+}
+
+.menu h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+    color: white;
+}
+
+.menu hr {
+    width: 150px;
+    border: 2px solid transparent;
+    position: relative;
+    right: 50%;
+    left: 34%;
+    margin-top: 10px;
+}
+
+.menu img {
+    width: 600px;
+    height: 400px;
+}
+
+.menu-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 30px;
+}
+
+.hrs {
+    display: flex;
+}
+
+.hp1 {
+    border: none;
+    /* Remove a borda padrão */
+    height: 3px;
+    /* Define a espessura da linha */
+    background-color: var(--italy-red);
+    /* Cor da linha */
+}
+
+.hp2 {
+    border: none;
+    height: 3px;
+    background-color: var(--italy-green);
+}
+
+.hp3 {
+    border: none;
+    height: 3px;
+    background-color: var(--italy-white);
+}

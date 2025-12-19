@@ -1,3 +1,9 @@
+:root{
+    --italy-red: #C0392B;
+    --italy-green: #2E7D32;
+    --italy-white: #F4F1EC;
+}
+
 .header {
     display: flex;
     flex-direction: column;
@@ -70,13 +76,13 @@ option {
 .title-main {
     color: white;
     font-size: 68px;
-    width: 700px;
-    font-family: "Poppins", sans-serif;
+    width: 800px;
+    font-family: "Playfair Display", serif;
 }
 
 .header-button {
     padding: 15px 30px;
-    background-color: tomato;
+    background-color: var(--italy-green);
     color: white;
     font-weight: bold;
     border: none;
@@ -88,5 +94,5 @@ option {
 }
 
 .header-button:hover {
-    background-color: #e2582285;
+    background-color: var(--italy-red);
 }
