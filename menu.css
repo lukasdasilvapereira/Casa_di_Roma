@@ -59,3 +59,32 @@
     height: 3px;
     background-color: var(--italy-white);
 }
+
+.plate {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin: 20px;
+}
+
+.plate p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+.plate h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 28px;
+    color: white;
+}
+
+.plate img {
+    transition-behavior: smooth;
+}
+
+.plate img:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
