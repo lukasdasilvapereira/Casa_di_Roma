@@ -1,0 +1,56 @@
+:root {
+    --italy-red: #C0392B;
+    --italy-green: #2E7D32;
+    --italy-white: #F4F1EC;
+}
+
+.events {
+    padding: 250px;
+    background-color: #EDE6DC;
+}
+
+.events-section {
+    text-align: center;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.card-event {
+    display: flex;
+    background-color: var(--italy-white);
+}
+
+.event {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.event p {
+    font-size: 18px;
+    line-height: 1.6;
+    font-family: "Open Sans", sans-serif;
+}
+
+.events-section h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 48px;
+}
+
+.card-event h1 {
+    font-family: "Cinzel", serif;
+    font-size: 32px;
+    color: var(--italy-red);
+}
+
+.events-section hr {
+    width: 200px;
+    border: 2px solid var(--italy-green);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -70px;
+}
