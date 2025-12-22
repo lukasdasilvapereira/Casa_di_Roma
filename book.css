@@ -2,27 +2,43 @@
     padding: 100px;
 }
 
-.parallax {
-    /* The image used */
-    background-image: url("images/book.jpg");
-    
-    /* Set a specific height */
-    min-height: 500px; 
-    
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    border: 2px solid red;
+.book img {
+    width: 800px;
+    height: auto;
 }
 
-.content {
-
+.book-section {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
-.content h1 {
+.book h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
     color: white;
     font-family: "Arial Black", Gadget, sans-serif;
-    text-shadow: 2px 2px 4px #000000;
+}
+
+.book button {
+    padding: 15px 30px;
+    font-size: 18px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s all;
+}
+
+.book button:hover {
+    background-color: #45a049;
+}
+
+.book h3 {
+    font-size: 24px;
+    color: white;
+    font-family: "Arial", sans-serif;
 }
